@@ -2,7 +2,7 @@
 
 All-in-one Blackjack trainer with Hi-Lo card counting, basic strategy & index deviations (Python/Tkinter).
 
-📸 ## **Screenshots**
+📸 **Screenshots**
 
 <img width="1098" height="680" alt="combo" src="https://github.com/user-attachments/assets/f3755e77-70db-49c3-97c8-3186c257829e" />
 
@@ -19,19 +19,19 @@ All-in-one Blackjack trainer with Hi-Lo card counting, basic strategy & index de
  - Decisions: Hit · Stand · Double · Split
  - Rules consistent with multi-deck Blackjack
 
-3. True Count Deviations
+3. ## *True Count Deviations*
  - Automatic index plays (Illustrious 18 + common negatives)
  - Insurance advice (TC ≥ +3)
  - Base strategy vs deviation display
 
-4. Interactive GUI
+4. ## *Interactive GUI*
  - Two-column layout (Left: counting / Right: strategy)
  - Real-time updates of counts and strategy decisions
  - Toggle hand type: Hard / Soft / Pair
 
-▶️ Installation
+▶️ ## **Installation**
 
-Requirements:
+**Requirements:**
 
 - Python 3.9+
 - Tkinter (included with Python)
