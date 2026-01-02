@@ -1,147 +1,131 @@
 🃏 Blackjack Card Counter & Strategy Assistant (Tkinter)
 <img width="1098" height="680" alt="combo" src="https://github.com/user-attachments/assets/f3755e77-70db-49c3-97c8-3186c257829e" />
 
-Applicazione desktop in Python + Tkinter che combina:
+Desktop application in Python + Tkinter combining:
 
-Conteggio carte Hi-Lo
+Hi-Lo card counting
 
-Strategia base del Blackjack
+Basic Blackjack strategy engine
 
-Deviazioni da strategia basate sul True Count
+True count deviations (Illustrious 18 + common negatives)
 
-Interfaccia grafica completa su un’unica schermata
+Designed as an educational and training tool for Blackjack.
 
-Pensata come assistente didattico e di allenamento per il Blackjack multi-deck.
+✨ Features
+🔢 Card Counting (Hi-Lo)
 
-✨ Funzionalità principali
-🔢 Conteggio Carte (Hi-Lo)
+Supports 1, 2, 6, or 8 decks
 
-Supporto per 1, 2, 6 o 8 mazzi
-
-Calcolo automatico di:
+Automatically tracks:
 
 Running Count (RC)
 
 True Count (TC)
 
-Carte viste, rimanenti e totali
+Cards seen, remaining, and total
 
-Pulsanti rapidi per inserire ogni carta (color-coded):
+Quick buttons for each card with color-coded values:
 
-🟢 Carte positive (2–6)
+🟢 Positive cards (2–6)
 
-⚪ Carte neutre (7–9)
+⚪ Neutral cards (7–9)
 
-🔴 Carte negative (10–A)
+🔴 Negative cards (10–A)
 
-Reset immediato del conteggio
+Reset counter instantly
 
-♠️ Strategia Base Integrata
+♠️ Basic Strategy
 
-Motore di Basic Strategy completo che gestisce:
+Handles Hard hands, Soft hands, and Pairs
 
-Mani Hard
+Decisions include:
 
-Mani Soft
+Hit · Stand · Double · Split
 
-Coppie
+Rules follow standard multi-deck Blackjack
 
-Decisioni:
-Chiedi Carta · Stai · Raddoppia · Dividi
+📊 True Count Deviations
 
-Le regole sono coerenti con Blackjack standard multi-deck.
+Includes common Index Plays (Illustrious 18 + negatives)
 
-📊 Deviazioni con True Count (Hi-Lo)
+Automatically adjusts advice based on True Count
 
-Include un set di Index Plays tipici (Illustrious 18 + negativi comuni):
+Highlights:
 
-Deviazioni automatiche dalla strategia base
+Base strategy
 
-Assicurazione consigliata quando TC ≥ +3
+Deviations
 
-Evidenzia chiaramente:
+True Count value
 
-Decisione di Strategia Base
+Insurance recommendations when TC ≥ +3
 
-Eventuale Deviazione consigliata
+🖥️ User Interface (Tkinter)
 
-True Count corrente
+Single-screen layout with two columns:
 
-🖥️ Interfaccia Grafica (Tkinter)
+Left: Card counting
 
-Tutto su una sola schermata
+Right: Strategy & deviations
 
-Layout a due colonne:
+Interactive buttons for:
 
-Sinistra → Conteggio carte
+Dealer card
 
-Destra → Strategia e deviazioni
+Player total
 
-Selezione tramite pulsanti:
+Hand type (Hard / Soft / Pair)
 
-Carta del mazziere
+Real-time updates for counts and strategy
 
-Totale del giocatore
+🧠 Internal Logic
 
-Tipo di mano (Hard / Soft / Coppie)
+BlackjackCardCounter: Manages Hi-Lo counting, RC, TC, and remaining decks
 
-Aggiornamento in tempo reale
+BasicStrategyEngine: Implements basic strategy (hard, soft, pairs)
 
-🧠 Logica interna
-Moduli principali
+INDEX_RULES: Contains deviation rules
 
-BlackjackCardCounter
-Gestisce conteggio Hi-Lo, RC, TC e mazzi rimanenti
+BlackjackOneScreen: Complete GUI
 
-BasicStrategyEngine
-Implementa la strategia base (hard, soft, coppie)
-
-INDEX_RULES
-Tabelle di deviazione basate sul True Count
-
-BlackjackOneScreen
-Interfaccia grafica completa
-
-▶️ Avvio dell’applicazione
-Requisiti
+▶️ How to Run
+Requirements
 
 Python 3.9+
 
-Tkinter (incluso di default in Python)
+Tkinter (included with Python)
 
-Avvio
+Run
 python blackjack.py
 
 
-Su Windows, se python non è riconosciuto:
+On Windows, if python is not recognized:
 
 py blackjack.py
 
-🎯 Obiettivo del progetto
+🎯 Purpose
 
-Questo progetto NON è pensato per il gioco reale nei casinò, ma come:
+Educational tool for studying Blackjack strategy
 
-Strumento di studio
+Mental training for card counting
 
-Allenamento mentale al conteggio
+Visualization of base strategy and deviations
 
-Visualizzazione immediata di strategia e deviazioni
+Understand the impact of the True Count
 
-Supporto per comprendere l’impatto del True Count
+📌 Future Extensions
 
-📌 Possibili estensioni future
+Support for different rules (H17, no DAS, surrender)
 
-Supporto regole specifiche (H17, no DAS, surrender)
+Additional counting systems
 
-Altri sistemi di conteggio
+Suggested bet sizing
 
-Bet sizing suggerito
+Full hand simulation
 
-Modalità simulazione mano completa
-
-Salvataggio sessioni
+Session saving
 
 ⚠️ Disclaimer
 
-Questo software è solo a scopo educativo.
-Il gioco d’azzardo comporta rischi finanziari.
+This software is for educational purposes only.
+Gambling involves financial risk.
