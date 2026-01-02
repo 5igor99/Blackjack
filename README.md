@@ -3,8 +3,8 @@
 All-in-one Blackjack trainer with Hi-Lo card counting, basic strategy & index deviations (Python/Tkinter).
 
 📸 Screenshots
+
 <img width="1098" height="680" alt="combo" src="https://github.com/user-attachments/assets/f3755e77-70db-49c3-97c8-3186c257829e" />
-<img width="495" height="228" alt="Hi-Lo counter" src="https://github.com/user-attachments/assets/d586e958-8677-4d95-8bf3-4be0638b1c81" />
 
 ✨ Features:
 
