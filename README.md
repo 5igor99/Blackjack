@@ -29,43 +29,43 @@ All-in-one Blackjack trainer with Hi-Lo card counting, basic strategy & index de
  - Real-time updates of counts and strategy decisions
  - Toggle hand type: Hard / Soft / Pair
 
-▶️ ## **Installation**
+▶️ **Installation**
 
 **Requirements:**
 
 - Python 3.9+
 - Tkinter (included with Python)
 
-Quick Start
+**Quick Start**
 
-Clone the repo: 
+**Clone the repo:** 
 
 git clone https://github.com/5igor99/Blackjack.git
 cd Blackjack
 
-Run the application:
+**Run the application:**
 
 python blackjack.py
 
-On Windows, if python is not recognized, try:
+**On Windows, if python is not recognized, try:**
 
 py blackjack.py
 
-🧠 How It Works:
+🧠 **How It Works:**
 
 - BlackjackCardCounter: Hi-Lo counting, RC, TC, and remaining decks
 - BasicStrategyEngine: Implements hard, soft, and pair strategy
 - INDEX_RULES: Stores index deviations for multi-deck play
 - BlackjackOneScreen: Full GUI combining counting and strategy
 
-🎯 Purpose
+🎯 **Purpose**
 
 - Educational tool for learning Blackjack strategy
 - Mental training for card counting
 - Visualization of base strategy + deviations
 - Understand impact of True Count on decisions
 
-📌 Future Enhancements
+📌 **Future Enhancements**
 
 - Support for custom house rules (H17, no DAS, surrender)
 - Additional card counting systems
@@ -73,8 +73,9 @@ py blackjack.py
 - Full hand simulation mode
 - Session saving / statistics tracking
 
-⚠️ Disclaimer
+⚠️ **Disclaimer**
 
 This software is for educational purposes only.
 Gambling involves financial risk.
+Code generate with AI.
 
