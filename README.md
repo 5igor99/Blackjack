@@ -1,20 +1,20 @@
-🃏 Blackjack Card Counter & Strategy Assistant (Tkinter)
+🃏 # **Blackjack Card Counter & Strategy Assistant (Tkinter)**
 
 All-in-one Blackjack trainer with Hi-Lo card counting, basic strategy & index deviations (Python/Tkinter).
 
-📸 Screenshots
+📸 ## **Screenshots**
 
 <img width="1098" height="680" alt="combo" src="https://github.com/user-attachments/assets/f3755e77-70db-49c3-97c8-3186c257829e" />
 
-✨ Features:
+✨ # **Features:**
 
-1. Hi-Lo Card Counting
+1. ## **Hi-Lo Card Counting**
  - Support for 1, 2, 6, or 8 decks
  - Running Count (RC) and True Count (TC)
  - Cards seen, remaining, and total
  - Color-coded quick buttons for fast input
 
-2. Basic Strategy Engine
+2. ## **Basic Strategy Engine**
  - Handles Hard hands, Soft hands, and Pairs
  - Decisions: Hit · Stand · Double · Split
  - Rules consistent with multi-deck Blackjack
